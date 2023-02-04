@@ -17,7 +17,56 @@
       </ul>
     </nav>
     <main>
+        <div class="card">
+            <img src="/Components/W210.jpeg" alt="Car 1" style="width:100%">
+            <h3>Mazda Miata</h3>
+            <p class="title">Make: Mercedes-Benz</p>
+            <p>Model: W210</p>
+            <p>Year: 1995–2003</p>
+            <p href="/Models/W210.html"><button>Learn More</button></p>
+          </div>
     </main>
+    <style>
+    .card {
+        width: 300px;
+        height: 370px;
+        box-shadow: 2px 2px 5px #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20px;
+        float: left;
+    }
+  
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+  
+    .card h3 {
+        margin: 10px;
+        font-size: 18px;
+    }
+  
+    .card p {
+        margin: 10px;
+        font-size: 14px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+  
+    button:hover {
+        background-color: #444;
+    }
+    </style>
     <footer>
       <p>&copy; 2023 Mercedes Benz Forum</p>
     </footer>
