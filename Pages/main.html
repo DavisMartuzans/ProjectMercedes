@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mercedes Benz Forum</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mercedes Benz Forum</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/Pages/main.html">Home</a></li>
+        <li><a href="/Pages/models.html">Models</a></li>
+        <li><a href="/Pages/discussions.html">Discussions</a></li>
+        <li><a href="/Pages/support.html">Support</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Welcome to the Mercedes Benz Forum</h2>
+      <p>Share your experiences, ask questions and connect with other Mercedes Benz owners.</p>
+      <form action="submit_post.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2023 Mercedes Benz Forum</p>
+    </footer>
+  </body>
+</html>
